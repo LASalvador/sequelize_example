@@ -1,0 +1,25 @@
+{
+  "name": "sequelize_example",
+  "version": "1.0.0",
+  "description": "use Sequelize to build a simple (very, very simple) API for storing blog posts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LASalvador/sequelize_example.git"
+  },
+  "author": "Lucas Salvador / Mirko Jotic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LASalvador/sequelize_example/issues"
+  },
+  "homepage": "https://github.com/LASalvador/sequelize_example#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "sequelize": "^5.6.0"
+  }
+}
