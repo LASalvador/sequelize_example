@@ -4,8 +4,8 @@ const BlogModel = require('./models/blog')
 const TagModel = require('./models/tag')
 
 
-const sequelize = new Sequelize('teste', 'root','epsoft123', {
-    host:  'dev.kanban360.com.br',
+const sequelize = new Sequelize('teste', 'root','', {
+    host:  '',
     dialect: 'mysql',
     pool: {
         max: 10,
